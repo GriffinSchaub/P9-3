@@ -82,7 +82,7 @@ int romanCharValue(string s) {
 		}
 	
 
-		if (firstNum >= secondNum || secondNum == false) {
+		if (firstNum >= secondNum || secondNum == false) { // cases for adding or subtracting
 			value = value + firstNum;
 		}
 		else {
